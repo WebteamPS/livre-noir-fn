@@ -1,0 +1,183 @@
+body {
+	background-color: #434343;
+	margin: 0;
+	padding: 0;
+}
+.sep {
+	margin: 80px 0;
+}
+.banner {
+	background-color: #074d84;
+	background-image: url('../img/bg-banner-intro.png');
+	padding: 40px 0 0 0;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	content: " ";
+}
+.content-banner {
+	padding: 40px 0;
+	min-height: 515px;
+}
+.content-banner h2 {
+	background-color: #1d1d1b;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	width: 50%;
+	padding: 10px 0;
+}
+.intro {
+	padding: 50px 0 50px 0;
+}
+.intro hr {
+	border-color: #e20040;
+	border-width: 4px;
+	margin: 30px 0 30px 0;
+}
+.intro p {
+	color: #fff;
+	font-size: 16px;
+}
+.themes {
+	padding: 80px 0;
+}
+ul.item-themes li {
+	list-style: none;
+	min-height: 250px;
+	text-align: center;
+}
+ul.item-themes li img {
+	max-width: 150px;
+	-moz-opacity: 0.70;
+	-khtml-opacity: 0.70;
+	opacity: 0.70;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=70);
+	filter:alpha(opacity=70);
+		-webkit-transition: all 0.25s ease-in-out 0s;
+	-o-transition: all 0.25s ease-in-out 0s;
+	transition: all 0.25s ease-in-out 0s;
+}
+ul.item-themes li a:nth-child(1n) {
+	padding-top: 60px;
+}
+ul.item-themes li a:nth-child(2) {
+	padding-top: 40px;
+}
+ul.item-themes li a:nth-child(3) {
+	padding-top: 40px;
+}
+ul.item-themes li a:nth-child(3) {
+	padding-top: 60px;
+}
+ul.item-themes li a {
+	-webkit-border-radius: 250px;
+	-moz-border-radius: 250px;
+	border-radius: 250px;
+	width: 250px;
+	height: 250px;
+	background-color: #fff;
+	display: block;
+	margin: 0 auto;
+}
+ul.item-themes li a:hover img {
+	-moz-opacity: 1;
+	-khtml-opacity: 1;
+	opacity: 1;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=100);
+	filter:alpha(opacity=100);
+}
+#solidarite, #ecole, #culture, #republique {
+	padding: 80px 0;
+}
+.wrapper-chapter {
+	background-color: #074d84;
+	padding: 30px;
+}
+.wrapper-chapter h2{
+	color: #fff;
+	margin-top: 0;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+.wrapper-chapter p{
+	color: #fff;
+}
+.wrapper-share {
+	height: 250px;
+}
+.wrapper-share h3 {
+	color: #fff;
+	margin-top: 0;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+.container-share {
+	background-color: #fff;
+	padding: 30px;
+	position: absolute;
+	width: 96%;
+	margin-bottom: 30px;
+}
+.container-share .quote-share {
+	background-color: #0c3960;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 20px;
+	top: 20px;
+	left: 30px;
+	position: relative;
+	z-index: 4;
+	width: 95%;
+}
+.container-share span {
+	background-image: url('../img/icon-fn.png');
+	background-repeat: no-repeat;
+	display: block;
+	width: 42px;
+	height: 133px;
+	top: 0;
+	left: 0;
+	position: relative;
+	z-index: 5;
+	float: left;
+}
+.btn-share {
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+}
+.btn-share a {
+	display: inline-block;
+}
+.btn-share a img{
+	width: 24px;
+}
+.wrapper-decisions {
+	margin-top: 30px;
+}
+.wrapper-decisions h3 {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+.container-decisions {
+	background-color: #fff;
+	padding: 20px 100px;
+}
+.container-decisions div{
+	text-align: center;
+}
+.container-decisions h4{
+	color: #fff;
+	background-color: #074d84;
+	display: inline-block;
+	text-transform: uppercase;
+	padding: 2px 5px;
+}
+.container-decisions p{
+	color: #000;
+}
