@@ -6,23 +6,12 @@ body {
 .sep {
 	margin: 80px 0;
 }
-.banner {
-	background-color: #074d84;
-	background-image: url('../img/bg-banner-intro.png');
-	padding: 40px 0 0 0;
-	background-position: top center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	content: " ";
-}
 .content-banner {
-	padding: 40px 0;
-	min-height: 515px;
+	background-color: #074d84;	
+	padding: 40px 0 0 0;
 }
-.content-banner h2 {
+.banner h2 {
+	position: absolute;
 	background-color: #1d1d1b;
 	color: #fff;
 	text-transform: uppercase;
@@ -57,21 +46,15 @@ ul.item-themes li img {
 	opacity: 0.70;
 	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=70);
 	filter:alpha(opacity=70);
-		-webkit-transition: all 0.25s ease-in-out 0s;
+	-webkit-transition: all 0.25s ease-in-out 0s;
 	-o-transition: all 0.25s ease-in-out 0s;
 	transition: all 0.25s ease-in-out 0s;
 }
-ul.item-themes li a:nth-child(1n) {
-	padding-top: 60px;
+.item-solidarite, .item-culture, .item-republique {
+	margin-top: 60px;
 }
-ul.item-themes li a:nth-child(2) {
-	padding-top: 40px;
-}
-ul.item-themes li a:nth-child(3) {
-	padding-top: 40px;
-}
-ul.item-themes li a:nth-child(3) {
-	padding-top: 60px;
+.item-education {
+	margin-top: 40px;
 }
 ul.item-themes li a {
 	-webkit-border-radius: 250px;
