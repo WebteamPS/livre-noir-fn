@@ -28,20 +28,22 @@
     <meta name="twitter:description" content="Le bilan de l’action de l’extrême droite dans les villes qu’elle dirige.">
     <meta name="twitter:image" content="http://partisocialiste.github.io/livre-noir-fn/img/share.png">
 
-    </head>
-    <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-    <section class="banner">
+  </head>
+  <body>
+    <!--[if lt IE 8]>
+      <i class="glyphicon glyphicon-info-sign"></i>Le navigateur que vous utilisez <strong>n'est plus à jour</strong>. Pour une meilleure navigation, merci d'en <a href="http://browsehappy.com/" target="_blank" title="Télécharger une version plus récente de votre navigateur">télécharger</a> une version plus récente.
+      </p>
+    <![endif]-->
+    <section class="content-banner">
       <div class="row">
         <div class="container">
-          <div class="col-md-12 content-banner">
+          <div class="col-md-12 banner">
             <h2>Le livre noir</h2>  
-          </div><!-- /content-banner -->
+            <img src="img/bg-banner-intro.png" class="img-responsive" />
+          </div><!-- /banner -->
         </div>
       </div>
-    </section><!-- /banner -->
+    </section><!-- /content-banner -->
     <section class="intro">
       <div class="container">
         <div class="row">
@@ -67,16 +69,16 @@
           <div class="col-md-12">
             <ul class="item-themes">
               <li class="col-lg-3 col-sm-6">
-                <a href="#solidarite" title="HARO sur LES POLITIQUES DE SOLIDARITÉ"><img src="img/icon-solidarite.png" alt="Courbe décroissante"></a>
+                <a href="#solidarite" title="HARO sur LES POLITIQUES DE SOLIDARITÉ"><img src="img/icon-solidarite.png" alt="Courbe décroissante" class="item-solidarite"></a>
               </li>
               <li class="col-lg-3 col-sm-6">
-                <a href="#ecole" title="L’ÉCOLE, ENTRE TENSION ET ABANDON"><img src="img/icon-ecole.png" alt="Sac à dos"></a>
+                <a href="#education" title="L’ÉCOLE, ENTRE TENSION ET ABANDON"><img src="img/icon-ecole.png" alt="Sac à dos" class="item-education"></a>
               </li>
               <li class="col-lg-3 col-sm-6">
-                <a href="#culture" title="LA MISE AU PAS DE LA CULTURE"><img src="img/icon-culture.png" alt="Masque de la culture"></a>
+                <a href="#culture" title="LA MISE AU PAS DE LA CULTURE"><img src="img/icon-culture.png" alt="Masque de la culture" class="item-culture"></a>
               </li>
               <li class="col-lg-3 col-sm-6">
-                <a href="#republique" title="LE PIÉTINEMENT PERMANENT DE LA RÉPUBLIQUE"><img src="img/icon-republique.png" alt="La république brisée"></a>
+                <a href="#republique" title="LE PIÉTINEMENT PERMANENT DE LA RÉPUBLIQUE"><img src="img/icon-republique.png" alt="La république brisée" class="item-republique"></a>
               </li>
             </ul>
           </div>  
@@ -143,25 +145,22 @@
           </div><!-- /col-md-8 -->
         </div><!-- /row -->
       </div><!-- /container -->
-    </section><!-- /BLOC SOLIDARITE -->
-    
+    </section><!-- /BLOC SOLIDARITE --> 
 
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
-      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-      <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="js/vendor/bootstrap.min.js"></script>
 
-        <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 
-        <script src="js/main.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-        </script>
+    <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='//www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-5757649-1','auto');ga('send','pageview');
+    </script>
   </body>
 </html>
