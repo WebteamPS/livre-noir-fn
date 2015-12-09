@@ -1,3 +1,4 @@
+// FUNCTION SCROLL
 $('a[href^="#"]').click(function(){
   var the_id = $(this).attr("href");
 
