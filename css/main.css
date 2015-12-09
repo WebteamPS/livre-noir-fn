@@ -61,7 +61,7 @@ body {
 }
 ul.item-themes li {
 	list-style: none;
-	min-height: 330px;
+	min-height: 350px;
 	text-align: center;
 }
 ul.item-themes h2 {
@@ -141,7 +141,7 @@ ul.item-themes li a:hover img {
 	color: #fff;
 }
 .wrapper-share {
-	height: 250px;
+	
 }
 .wrapper-share h3 {
 	color: #fff;
@@ -152,8 +152,6 @@ ul.item-themes li a:hover img {
 .container-share {
 	background-color: #fff;
 	padding: 30px;
-	position: absolute;
-	width: 96%;
 	margin-bottom: 30px;
 }
 .container-share .quote-share {
@@ -161,12 +159,8 @@ ul.item-themes li a:hover img {
 	color: #fff;
 	text-transform: uppercase;
 	font-size: 20px;
-	top: 20px;
-	left: 30px;
-	position: relative;
-	z-index: 4;
-	width: 95%;
-	padding: 10px 0;
+	padding: 15px;
+	margin: 20px 0 0 30px;
 }
 .container-share .quote-share i {
 	font-size: 14px;
@@ -176,22 +170,20 @@ ul.item-themes li a:hover img {
 	margin: 10px 0 0 0;
 	padding: 0 20px 0 0;
 }
-.container-share span {
-	background-image: url('../img/icon-fn.png');
-	background-repeat: no-repeat;
-	display: block;
+.container-share span:after {
 	width: 42px;
 	height: 133px;
-	top: 0;
-	left: 0;
-	position: relative;
-	z-index: 5;
+	background-image: url('../img/icon-fn.png');
+	background-repeat: no-repeat;
+	background-position: top left;
+	display: block;
+	content: "";
+	background-size: 100%;
 	float: left;
 }
 .btn-share {
-	position: absolute;
-	bottom: 15px;
-	right: 15px;
+	text-align: right;
+	margin: 20px 0 0 0;
 }
 .btn-share a {
 	display: inline-block;
@@ -304,8 +296,27 @@ RESPONSIVE
 	}
 }
 @media only screen and (max-width: 768px) and (min-width: 320px){
+	/*body {
+		background-color: orange;
+	}*/
 	.themes {
 		padding: 0px 0 50px 0;
+	}
+	ul.item-themes li {
+		min-height: 240px;
+	}
+	ul.item-themes li .icon{
+		width: 180px;
+    height: 180px;
+	}
+	ul.item-themes li img {
+		max-width: 110px;
+	}
+	.item-solidarite, .item-culture, .item-republique {
+    margin-top: 40px;
+	}
+	.item-education {
+    margin-top: 25px;
 	}
 	.sep {
 		margin: 0;
@@ -320,9 +331,6 @@ RESPONSIVE
 	}
 }
 @media only screen and (max-width: 480px) and (min-width: 320px){
-	/*body {
-		background-color: orange;
-	}*/
 	.banner h2 {
 		font-size: 15px;
     width: 40%;
