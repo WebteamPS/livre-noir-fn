@@ -42,9 +42,19 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12 banner">
-              <a class="btn btn-default btn-pdf" href="http://www.parti-socialiste.fr/static/12904/documents/livre-noir-sur-le-fn_0.pdf" target="_blank" alt="Téléchargez le livre noir">Téléchargez le livre noir</a>
-              <h2>Le livre noir</h2>  
-              <img src="img/bg-banner-intro.png" class="img-responsive" />
+              <h1 class="logo-ps clearfix">
+                <a class="navbar-brand" href="/">
+                  <i>
+                    <span>La social-écologie - Parti socialiste</span>
+                  </i>
+                </a>
+              </h1>              
+              <a class="btn btn-default btn-pdf" href="http://www.parti-socialiste.fr/static/12904/documents/livre-noir-sur-le-fn_0.pdf" target="_blank" alt="Téléchargez le livre noir">
+                <i class="glyphicon glyphicon-download-alt"></i>
+                <span>Téléchargez le livre noir</span>
+              </a>
+              <h2>Le livre noir</h2>
+              <img src="img/bg-banner-intro.png" class="img-responsive bg-banner" />
             </div><!-- /banner -->
         </div><!-- /row -->
       </div><!-- /container -->
@@ -1258,12 +1268,13 @@
     <script src="js/main.js"></script>
 
     <script>
-      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-      e.src='//www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-5757649-1','auto');ga('send','pageview');
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-71273611-1', 'auto');
+      ga('send', 'pageview');
     </script>
   </body>
 </html>
